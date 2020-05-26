@@ -281,9 +281,7 @@ summary::before{
 	border-right: 28px solid #ebebeb;
 	left: -48px;
 	top:-18px;
-
 }
-
 .figcaption-reviews>p{
 	width: 100%;
     margin: 0 0 5px 0;
@@ -354,10 +352,8 @@ text-transform: capitalize;
     width: 300px;
  	margin: 0;
  	text-align: center;
- 	/*padding-top: 15px;*/
     padding: 10px;
     box-sizing: border-box;
-	   /* height: 41px;*/
 	font-family: Arial;
     font-size: 24px;
     line-height: 30px;
@@ -370,12 +366,10 @@ text-transform: capitalize;
 	width: 100%;
     box-sizing: border-box;
     padding: 13px 0 13px 0;
-
     border: 2.0px solid #445162;
     background-color:#ffffff ;
 	text-transform: capitalize;
 	text-align:center;
-
 	font-family: Arial;
     font-size: 40px;
     line-height: 30px;
@@ -432,16 +426,16 @@ ol>li{
     display: block;
     width: 100%;
     text-align: center;
-    margin:0;
+    margin:0 0 30px 0;
     text-transform: capitalize;
     font-family: Arial;
     font-size: 30px;
     line-height: 36px;
     font-weight: 400;
-    color: #445161;
+    color:#ffffff;
 }
 .form{
-    margin: 20px 0 0 200px;
+    margin: 0 0 0 200px;
     width: 500px;
     display: flex;
     flex-wrap: wrap;
@@ -449,9 +443,8 @@ ol>li{
 }
 .div-contacts{
     width: 240px;
-    min-height: 300px;
-    margin: 30px 0 0 20px;
-    padding: 0 0 0 0;
+    margin: 0;
+    padding: 0 0 0 40px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -522,7 +515,7 @@ ol>li{
     display: block;
     width: 100%;
     list-style: none;
-    margin: 10px 0 0 0;
+    margin: 0;
 }
 .div-ul-li{
 
@@ -542,7 +535,7 @@ ol>li{
     text-decoration: none;
 }
 .skype:before{
-    content: ;
+    content:"" ;
     display: block;
     width: 24px;
     height: 26px;
@@ -550,6 +543,44 @@ ol>li{
     -webkit-background-size: cover;
     background-size: cover;
     position: absolute;
+    left: -30px;
+    top:-5px;
+}
+.isq:before{
+    content:"" ;
+    display: block;
+    width: 24px;
+    height: 26px;
+    background-image: url(../img/icq_icon_324.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    left: -30px;
+    top:-5px;
+}
+.mail:before{
+    content:"" ;
+    display: block;
+    width: 24px;
+    height: 26px;
+    background-image: url(../img/email_icon_332.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    left: -30px;
+    top:-5px;
+}
+.phone:before{
+    content:"" ;
+    display: block;
+    width: 24px;
+    height: 26px;
+    background-image: url(../img/phone_icon_337.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    left: -30px;
+    top:-5px;
 }
 .mail,
 .phone{
