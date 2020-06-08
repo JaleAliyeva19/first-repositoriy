@@ -8,6 +8,10 @@ body {
     box-sizing: border-box;
     font-family: Arial;
     font-size: 14px;
+    background-image: url(../img/sotki.png);
+background-blend-mode:  red;
+
+
 }
 .header{
 	padding: 50px;
@@ -17,6 +21,8 @@ body {
     box-sizing: border-box;
     min-height: 323px;
     background-color: #445162;
+    background-blend-mode:
+
 }
 .header:after {
 	content: "";
@@ -200,7 +206,7 @@ summary::before{
 	float: left;
 	width: 200px;
     height: 150px;
-    background-color: #445161
+   /* background-color: #445161;*/
 }
 .figcaption>span{
 	font-family: Arial;
